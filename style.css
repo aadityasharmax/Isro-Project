@@ -113,18 +113,16 @@ header {
 .container_2 img {
   height: 400px;
   width: 500px;
-  animation: test 20s alternate infinite ease-in-out;
+  animation: test 40s infinite ease-in-out;
 }
 
 @keyframes test {
   0% {
     transform: rotate(0deg);
-    margin-right:90px;
     }
    
   100% {
     transform: rotate(360deg);
-    margin-left:90px;
    
     
   }
@@ -141,7 +139,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:12px;
+  gap:50px;
   
 }
 
@@ -169,25 +167,35 @@ main {
 .aditya_l1 img{
     height:400px;
     width:340px;
-    animation: test_2 5s infinite alternate ease-in-out ;
+    animation: test_2 10s infinite ease-in-out ;
 }
 
 @keyframes test_2 {
-    0% {
-        margin: 0px;
-      }
-      50% {
-        margin-right: 40px;
-      }
-      100% {
-        margin-top: 10px;
-      }
-    
+    0% 
+    {
+      transform:rotate(0deg)
+    }
+    50%{
+      transform:rotate(20deg);
+    }
+    100%{
+      transform:rotate(-20deg);
+    }
 }
+
 
 .aditya_l1 p {
     font-size: 20px;
     font-family: "Kanit", sans-serif;
 }
+
+
+
+
+
+
+
+
+
 
 
