@@ -130,7 +130,7 @@ header {
 
 main {
   background-image: url("Images/Sun.jpg");
-  min-height: 100vh;
+  min-height: 150vh;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -145,6 +145,7 @@ main {
 
 .Missions{
      display:flex;
+     
 }
 
 .Missions h1{
@@ -188,6 +189,52 @@ main {
     font-size: 20px;
     font-family: "Kanit", sans-serif;
 }
+
+.chandrayan{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:40px;
+}
+.c_3{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap:150px;
+}
+
+.c_1 h1{
+  color: beige;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    text-decoration: underline;
+}
+
+.c_3 img{
+  height:300px;
+  width:400px;
+  animation : moon 20s infinite ease-in-out;
+
+}
+.c_3 p{
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  color:white;
+
+}
+
+@keyframes moon {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
+
 
 
 
